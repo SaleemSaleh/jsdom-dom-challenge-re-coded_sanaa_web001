@@ -39,6 +39,7 @@ pause.addEventListener("click" , (e) => {
     puaseF = true ;
     document.getElementById("plus").removeEventListener("click", inc_fuc);
     document.getElementById("minus").removeEventListener("click", dec_fuc);
+    document.getElementById("pause").innerHTML = "resume";
   }else{
     puaseF = false ;
     increment.addEventListener("click" ,inc_fuc);
